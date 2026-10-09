@@ -1,0 +1,272 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sports League Management System</title>
+  <meta name="description" content="One operating model for registration, fixtures, matchday data and every stakeholder who keeps a league moving.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <a class="brand" href="#top" aria-label="League System home">
+    <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><circle cx="16" cy="16" r="13" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 3v26M3 16h26" stroke="currentColor" stroke-width="2"/><circle cx="16" cy="16" r="4" fill="currentColor"/></svg>
+    <span>League System</span>
+  </a>
+  <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+  <nav id="nav" class="nav">
+    <a href="#problem">The problem</a>
+    <a href="#registration">Registration</a>
+    <a href="#scheduling">Scheduling</a>
+    <a href="#matchday">Live demo</a>
+    <a href="#dashboards">Dashboards</a>
+    <a href="#start" class="nav-cta">Get started</a>
+  </nav>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <svg class="pitch" viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <g fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round">
+      <rect class="draw" x="60" y="40" width="1080" height="620" rx="4"/>
+      <line class="draw" x1="600" y1="40" x2="600" y2="660"/>
+      <circle class="draw" cx="600" cy="350" r="95"/>
+      <rect class="draw" x="60" y="190" width="170" height="320"/>
+      <rect class="draw" x="970" y="190" width="170" height="320"/>
+      <rect class="draw" x="60" y="275" width="60" height="150"/>
+      <rect class="draw" x="1080" y="275" width="60" height="150"/>
+      <path class="draw" d="M230 295a95 95 0 0 1 0 110"/>
+      <path class="draw" d="M970 295a95 95 0 0 0 0 110"/>
+    </g>
+    <circle cx="600" cy="350" r="6" fill="#fff"/>
+  </svg>
+
+  <div class="hero-inner">
+    <h1>Run the whole season from one record.</h1>
+    <p class="lede">Registration, fixtures, matchday data and every person who keeps competition moving, working from the same source of truth.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#matchday">Try the live demo</a>
+      <a class="btn btn-ghost" href="#problem">See why leagues need it</a>
+    </div>
+  </div>
+</section>
+
+<!-- PROBLEM -->
+<section class="section" id="problem">
+  <div class="wrap split">
+    <div>
+      <h2 class="big">A season should not depend on finding the right file.</h2>
+      <p class="muted">Fragmentation turns routine coordination into exception handling.</p>
+    </div>
+    <ul class="pain-list">
+      <li><h3>Registration</h3><p>Rosters, eligibility, fees and documents are split across files.</p></li>
+      <li><h3>Scheduling</h3><p>Venue changes and official assignments need manual chasing.</p></li>
+      <li><h3>Results</h3><p>Scores arrive late, incomplete, or in different formats.</p></li>
+      <li><h3>Communication</h3><p>The same update is rewritten for every audience.</p></li>
+      <li><h3>Reporting</h3><p>Leadership sees a delayed picture of league health.</p></li>
+      <li><h3>Exceptions</h3><p>Small changes create outsized coordination work.</p></li>
+    </ul>
+  </div>
+</section>
+
+<!-- STAKEHOLDERS -->
+<section class="section band" id="stakeholders">
+  <div class="wrap">
+    <h2>One system connects every league stakeholder</h2>
+    <p class="muted narrow">A common platform gives each participant the information and actions they need, without forcing everyone into the same view. Shared records underneath, role-specific workflows above.</p>
+
+    <div class="platform" role="group" aria-label="Shared platform and the roles it serves">
+      <div class="platform-core">Shared sports platform</div>
+      <div class="roles">
+        <div class="role"><span class="role-icon">🏆</span><strong>League administrators</strong></div>
+        <div class="role"><span class="role-icon">👥</span><strong>Teams and coaches</strong></div>
+        <div class="role"><span class="role-icon">🟨</span><strong>Officials</strong></div>
+        <div class="role"><span class="role-icon">⚽</span><strong>Players</strong></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REGISTRATION -->
+<section class="section" id="registration">
+  <div class="wrap">
+    <h2>Registration turns scattered rosters into one source of truth</h2>
+    <p class="muted narrow">Capture league structure once. Keep eligibility, documents, fees and approvals tied to the right people and teams.</p>
+    <div class="reg-grid">
+      <article class="reg reg-lg"><h3>Clubs and teams</h3><p>Set divisions, squads, roles and competition entry.</p></article>
+      <article class="reg"><h3>Player profiles</h3><p>Keep identity, eligibility and team history together.</p></article>
+      <article class="reg"><h3>Documents and fees</h3><p>Collect required records and payment status in context.</p></article>
+      <article class="reg reg-lg reg-flag"><h3>Approvals</h3><p>Make exceptions visible before a player reaches matchday.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- SCHEDULING -->
+<section class="section band-dark" id="scheduling">
+  <div class="wrap split">
+    <div>
+      <h2>Scheduling becomes a visible, adaptable season plan</h2>
+      <p class="muted-light">Coordinate constraints in one workflow, publish the approved fixture, and make every change visible to the people it affects.</p>
+    </div>
+    <ol class="steps">
+      <li><span class="step-n">1</span><div><h3>Collect availability</h3><p>Gather venues and team time windows.</p></div></li>
+      <li><span class="step-n">2</span><div><h3>Assign officials</h3><p>Allocate referees and backups.</p></div></li>
+      <li><span class="step-n">3</span><div><h3>Build the fixture</h3><p>Create the season plan and match slots.</p></div></li>
+      <li><span class="step-n">4</span><div><h3>Publish and alert</h3><p>Release the schedule and send change alerts.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<!-- LIVE DEMO -->
+<section class="section" id="matchday">
+  <div class="wrap">
+    <h2>Matchday data flows directly into live standings</h2>
+    <p class="muted narrow">Capture the result once. The same record updates statistics, rankings, standings and fan-facing communication. Enter a score below and watch it happen.</p>
+
+    <div class="demo">
+      <form id="result-form" class="result-form" novalidate>
+        <h3>Submit a result</h3>
+        <div class="match-row">
+          <label>Home
+            <select id="home" name="home"></select>
+          </label>
+          <label class="score">Goals
+            <input id="home-goals" type="number" min="0" max="20" value="2" inputmode="numeric">
+          </label>
+        </div>
+        <div class="match-row">
+          <label>Away
+            <select id="away" name="away"></select>
+          </label>
+          <label class="score">Goals
+            <input id="away-goals" type="number" min="0" max="20" value="1" inputmode="numeric">
+          </label>
+        </div>
+        <p id="form-error" class="form-error" role="alert" hidden></p>
+        <div class="form-actions">
+          <button class="btn btn-primary" type="submit">Submit result</button>
+          <button class="btn btn-quiet" type="button" id="reset">Reset table</button>
+        </div>
+      </form>
+
+      <div class="table-wrap">
+        <table class="standings" aria-describedby="table-note">
+          <caption class="sr">League standings</caption>
+          <thead>
+            <tr><th scope="col">Pos</th><th scope="col">Team</th><th scope="col">P</th><th scope="col">W</th><th scope="col">D</th><th scope="col">L</th><th scope="col">GD</th><th scope="col">Pts</th></tr>
+          </thead>
+          <tbody id="standings-body"></tbody>
+        </table>
+        <p id="table-note" class="note">Illustrative standings. The value is the connected update path, not a second data entry.</p>
+      </div>
+
+      <aside class="feed" aria-live="polite">
+        <h3>What the system did</h3>
+        <ul id="feed"><li class="feed-empty">Submit a result to see the updates it triggers.</li></ul>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- DASHBOARDS -->
+<section class="section band" id="dashboards">
+  <div class="wrap">
+    <h2>Dashboards give every role the right view</h2>
+    <p class="muted narrow">Focused views help each stakeholder decide what to do next.</p>
+
+    <div class="tabs" role="tablist" aria-label="Dashboard roles">
+      <button role="tab" id="tab-admin" aria-controls="panel-admin" aria-selected="true">Administrators</button>
+      <button role="tab" id="tab-teams" aria-controls="panel-teams" aria-selected="false" tabindex="-1">Teams and coaches</button>
+      <button role="tab" id="tab-officials" aria-controls="panel-officials" aria-selected="false" tabindex="-1">Officials and fans</button>
+      <button role="tab" id="tab-leadership" aria-controls="panel-leadership" aria-selected="false" tabindex="-1">Leadership</button>
+    </div>
+
+    <div class="panel" id="panel-admin" role="tabpanel" aria-labelledby="tab-admin">
+      <h3>League health</h3>
+      <p>Participation, registrations and competition status, with exceptions and unresolved actions at the top.</p>
+      <ul class="chips"><li>Participation</li><li>Registrations</li><li>Exceptions</li><li>Open actions</li></ul>
+    </div>
+    <div class="panel" id="panel-teams" role="tabpanel" aria-labelledby="tab-teams" hidden>
+      <h3>Team view</h3>
+      <p>Performance, player availability and upcoming fixtures, plus the messages coaches need to prepare.</p>
+      <ul class="chips"><li>Availability</li><li>Fixtures</li><li>Results</li><li>Preparation notes</li></ul>
+    </div>
+    <div class="panel" id="panel-officials" role="tabpanel" aria-labelledby="tab-officials" hidden>
+      <h3>Matchday</h3>
+      <p>Confirmed assignments, published match information, incidents and reliable updates.</p>
+      <ul class="chips"><li>Assignments</li><li>Match information</li><li>Incidents</li><li>Updates</li></ul>
+    </div>
+    <div class="panel" id="panel-leadership" role="tabpanel" aria-labelledby="tab-leadership" hidden>
+      <h3>Leadership</h3>
+      <p>Trend, risk, adoption and operational follow-through in one place.</p>
+      <ul class="chips"><li>Trends</li><li>Risk</li><li>Adoption</li><li>Follow-through</li></ul>
+    </div>
+  </div>
+</section>
+
+<!-- AUTOMATION -->
+<section class="section" id="automation">
+  <div class="wrap split">
+    <div>
+      <h2>Automation removes repetitive coordination work</h2>
+      <p class="muted">Let the system handle predictable follow-up so league staff can focus on decisions, exceptions and the quality of competition.</p>
+    </div>
+    <div class="auto-grid">
+      <article><h3>Reminders</h3><p>Prompt teams about registration, fees and missing information.</p></article>
+      <article><h3>Approvals</h3><p>Route exceptions to the right administrator before they stall.</p></article>
+      <article><h3>Schedule changes</h3><p>Notify affected teams, officials and fans from one update.</p></article>
+      <article><h3>Post-match reporting</h3><p>Turn submitted results into standings and summaries automatically.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST -->
+<section class="section band" id="trust">
+  <div class="wrap">
+    <h2>A safer, more connected league experience</h2>
+    <p class="muted narrow">Permissions, audit trails, safeguarding workflows and reliable communication are part of the operating model.</p>
+    <dl class="trust-grid">
+      <div><dt>Permissions</dt><dd>Give each role access to the right records and actions.</dd></div>
+      <div><dt>Audit trails</dt><dd>Keep a clear history of changes, approvals and decisions.</dd></div>
+      <div><dt>Safeguarding</dt><dd>Make sensitive workflows visible to authorized owners.</dd></div>
+      <div><dt>Communication</dt><dd>Publish dependable updates from the same source of truth.</dd></div>
+    </dl>
+  </div>
+</section>
+
+<!-- START -->
+<section class="section start" id="start">
+  <div class="wrap">
+    <h2 class="big">Start with the workflows that create the most leverage.</h2>
+    <ol class="start-list">
+      <li>Configure league structure and roles</li>
+      <li>Import teams, players, venues and officials</li>
+      <li>Publish the first competition and measure adoption</li>
+    </ol>
+    <a class="btn btn-primary" href="#top">Back to the top</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>Sports League Management System</span>
+    <span>One record. Every role.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+```
+
